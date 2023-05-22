@@ -17,6 +17,4 @@ servidorHttp.listen(porta, () => console.log(`Servidor rodando na url http://loc
 
 const io = new Server(servidorHttp);
 
-io.on('connection', () => {
-	console.log('foi')
-});
+export default io;
